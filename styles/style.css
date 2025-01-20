@@ -1,59 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-/* header styles */
-
+/* Header styles */
 .header {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    font-family: "Quicksand", serif;
-    
+    font-family: "Quicksand", sans-serif;
+    padding: 20px 0;
+    align-items: center;
 }
 
-.logo{
+.logo {
     display: flex;
-    flex-direction: row;
-    justify-items: center;
-    justify-content: center;
+    align-items: center;
 }
-.logo>img {
+
+.logo img {
     width: 62px;
     height: 62px;
 }
-.logo>h1 {
-    font-family: "Quicksand", serif;
+
+.logo h1 {
     font-weight: bold;
-    font-style: normal;
     font-size: 32px;
     margin-right: 11px;
 }
+
 .menu {
     display: flex;
-    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-.menu>li {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
+
+.menu li {
     margin-right: 32px;
 }
-.menu-home {
-    font-weight: bold;
+
+/* Remove underline from anchor tags */
+.menu a {
+    text-decoration: none;
     font-size: 20px;
+    font-weight: 500;
+}
+
+.menu-home a {
+    font-weight: bold;
     color: orange;
 }
-.menu-about {
-    font-weight: 500;
-    font-size: 20px;
+
+.menu-about a {
     color: skyblue;
 }
-.menu-facilities {
-    font-weight: 500;
-    font-size: 20px;
+
+.menu-facilities a {
     color: #05D4DF;
 }
-.menu-admission {
-    font-weight: 500;
-    font-size: 20px;
+
+.menu-admission a {
     color: #5D58EF;
+}
+.primary-btn {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 500;   
+}
+.primary-btn>a {
+    text-decoration: none;
+    color: white;
 }
