@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* header styles */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Quicksand", serif;
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+}
+.logo>img {
+    width: 62px;
+    height: 62px;
+}
+.logo>h1 {
+    font-family: "Quicksand", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 32px;
+    margin-right: 11px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+.menu>li {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-right: 32px;
+}
+.menu-home {
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+}
+.menu-about {
+    font-weight: 500;
+    font-size: 20px;
+    color: skyblue;
+}
+.menu-facilities {
+    font-weight: 500;
+    font-size: 20px;
+    color: #05D4DF;
+}
+.menu-admission {
+    font-weight: 500;
+    font-size: 20px;
+    color: #5D58EF;
+}
