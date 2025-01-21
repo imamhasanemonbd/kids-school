@@ -270,7 +270,7 @@
     background: 
         url('/assets/bg.png') center center no-repeat,
         linear-gradient(to top, #FFF4DC 30%, #FFFFFF 100%);
-    padding: 80px 0px;
+    padding: 0px 0px 80px 0px;
     background-size: cover;
     height: auto;
     width: 100%; 
@@ -358,6 +358,14 @@
     margin-top: -25px;
     margin-left: 40px;
     align-self: flex-start;
+}
+.stories-card2 button,
+.stories-card4 button,
+.stories-card5 button {
+    background-color: #95B226;
+}
+.stories-card3 button {
+    background-color: #5D58F0;
 }
 
 .stories-card1 h3, .stories-card1 p {
@@ -499,7 +507,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 20px;
+        padding: 0px 20px;
     }
     .logo h1 {
         display: none;
@@ -539,7 +547,7 @@
         flex-direction: column-reverse;
         text-align: center;
         height: auto;
-        padding: 15px;
+        padding: 0px 15px;
         gap: 0px;
     }
 
@@ -568,6 +576,7 @@
     }
     .curriculum {
         height: auto;
+        padding: 0px 0px 80px 0px ;
     }
 
     .curriculum-container {
