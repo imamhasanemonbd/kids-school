@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 .global {
@@ -258,3 +259,133 @@
     padding: 20px;
     transform: rotate(180deg);             
 }
+
+
+/* stories section styles  */
+
+.stories {
+    background: 
+        url('/assets/bg.png') center center no-repeat,
+        linear-gradient(to top, #FFF4DC 30%, #FFFFFF 100%);
+    padding: 80px 0px;
+    background-size: cover;
+    height: 1020px; 
+    width: 100%; 
+}
+
+
+.stories-container {
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+    height: 630px;
+    width: auto;
+    margin: 80px 0px;
+}
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+    height: 625px;
+    width: 600px;
+}
+.stories-title {
+    font-weight: bold;
+    font-size: 2.9rem;
+    text-align: center;
+}
+.stories-card1, 
+.stories-card2, 
+.stories-card3, 
+.stories-card4, 
+.stories-card5 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+}
+.stories-card1 {
+    height: 630px;
+    width: 540px;   
+}
+.stories-card2,
+.stories-card3,
+.stories-card4,
+.stories-card5 {
+    height: 300px;
+    width: 290px; 
+}
+.stories-card2 img,
+.stories-card3 img,
+.stories-card4 img,
+.stories-card5 img {
+    height: 177px;
+    width: 290px; 
+}
+.stories-card2 img,
+.stories-card3 img,
+.stories-card4 img,
+.stories-card5 img {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000000;
+}
+.stories-card1 img,
+.stories-card2 img,
+.stories-card3 img,
+.stories-card4 img,
+.stories-card5 img {
+    border-radius: 16px 16px 0px 0px;
+}
+.stories-card1 button,
+.stories-card2 button,
+.stories-card3 button,
+.stories-card4 button,
+.stories-card5 button {
+    height: 50px;
+    width: 175px;
+    background-color: #3CD8E8;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: -30px;
+    margin-left: 40px;
+}
+.stories-card1 h3, .stories-card1 p {
+    padding: 0px 40px;
+}
+.stories-card1 h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000000;
+}
+.stories-card1 p {
+    font-weight: normal;
+    font-size: 1rem;
+    color: #666666;
+}
+.stories-btn-p {
+    display: flex;
+    justify-content: center;
+}
+.stories-btn {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500; 
+    margin: 0 auto;
+      
+}
+.stories-btn>a {
+    text-decoration: none;
+    color: white;
+}
+
