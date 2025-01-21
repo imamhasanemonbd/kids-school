@@ -403,6 +403,40 @@
     text-decoration: none;
     color: white;
 }
+
+/* marquee section styles */
+.marquee-section {
+    background-color: orange;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden; 
+}
+
+.marquee-text {
+    font-family: "Quicksand", sans-serif;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    animation: scroll-left 10s linear infinite; 
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%); 
+    }
+}
+
+
+
 /* Footer Section Styles */
 .footer {
     background-color: #01ACFD;
