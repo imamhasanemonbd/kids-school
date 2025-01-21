@@ -36,7 +36,12 @@
     font-size: 2rem;
     margin-right: 11px;
 }
-
+.hamburger-menu {
+    display: none; 
+}
+.hr {
+    display: none;
+}
 .menu {
     display: flex;
     list-style: none;
@@ -479,13 +484,126 @@
     background-color: #0077B5; 
 }
 
-
-/* responsive design styles  */ 
-
+/* Responsive styles for mobile devices */
 @media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .logo h1 {
+        display: none;
+    }
+    .logo img {
+        display: block; 
+        height: 45px;
+        width: 45px; 
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .menu-icon {
+        font-size: 30px;
+        background: none;
+        border: none;
+        color: #333;
+        cursor: pointer;
+    }
 
+    .menu {
+        display: none;
+    }
+
+    .primary-btn {
+        display: none;
+    }
+    .hr {
+        display: block;
+        background-color: orange;
+        width: 100%;
+        height: 2px;
+        border: none;
+            
+    }
     .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        height: auto;
+        padding: 15px;
+        gap: 0px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-title {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .hero-image {
+        height: auto;
+    }
+    .hero-image img {
+        width: 100%;
+        padding-right: 10px;
+    }
+    .hero-description {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .curriculum {
+        height: auto;
+    }
+
+    .curriculum-container {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .card1, .card2, .card3 {
+        width: 100%;
+        max-width: 100%;
+    }
+    .curriculum-icons {
+        display: none;
+    }
+
+    .stories-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stories-card1 {
+        width: 90%;
+        height: auto;
+    }
+
+    .stories-card2, .stories-card3, .stories-card4, .stories-card5 {
+        width: 90%;
+        height: auto;
+    }
+
+    .stories-btn {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .logo-footer {
         flex-direction: column;
     }
 
+    .hero-btn {
+        width: 50%;
+        align-self: center;
+    }
 }
+
+
