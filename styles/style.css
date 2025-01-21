@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+
+.global {
+    font-family: "Quicksand", sans-serif;
+}
 /* Header styles */
 .header {
-    display: flex;
-    justify-content: space-around;
     font-family: "Quicksand", sans-serif;
-    padding: 20px 0;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 186px;
     align-items: center;
+    justify-items: center;
+    height: 62px;
+    width: auto;
 }
 
 .logo {
@@ -21,7 +32,7 @@
 
 .logo h1 {
     font-weight: bold;
-    font-size: 32px;
+    font-size: 2rem;
     margin-right: 11px;
 }
 
@@ -39,7 +50,7 @@
 /* Remove underline from anchor tags */
 .menu a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -67,10 +78,183 @@
     border-radius: 12px;
     border: none;
     font-family: "Quicksand", sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;   
 }
 .primary-btn>a {
     text-decoration: none;
     color: white;
+}
+
+/* hero section styles  */
+
+.hero {
+    display: flex;
+    width: auto;
+    height: 575px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+    height: 331px;
+    width: 640px;
+
+
+}
+.hero-title {
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: 0px;
+
+}
+#Empowering {
+    color: orange;
+}
+#towards-vision {
+    color: skyblue;
+}
+.hero-description {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+.hero-btn {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;   
+}
+.hero-btn>a {
+    text-decoration: none;
+    color: white;
+}
+.hero-image {
+    height: 575px;
+    width: auto;
+
+}
+
+/* curriculum section styles  */
+
+.curriculum {
+    background-image: url('/assets/bg.png');
+    padding: 80px 0px;
+    
+    background-size: contain;  
+    background-position: center center;  
+    background-repeat: no-repeat; 
+    height: 880px; 
+    width: 100%; 
+}
+.curriculum-title {
+    padding-top: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.9rem;
+
+}
+.curriculum-container {
+    display: flex;
+    padding: 80px 0px;
+    gap: 28px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card1 {
+    width: 365px;
+    height: 475px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, 
+        #DEF5FF 0%, 
+        #FFFFFF 40% 
+    );
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    align-content: center;
+}
+
+.card2 {
+    width: 365px;
+    height: 475px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, 
+        #FFF4DC 0%,  
+        #FFFFFF 40%  
+    );
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    align-content: center;
+}
+.card3 {
+    width: 365px;
+    height: 475px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, 
+        #F2E8FF 0%, 
+        #FFFFFF 40% 
+    );
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    align-content: center;
+}
+.card1 h2, .card2 h2, .card3 h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #202020;
+}
+.card1 p, .card2 p, .card3 p {
+    font-weight: normal;
+    font-size: 1rem;
+    color: #808080;
+}
+.card1 a, .card2 a, .card3 a {
+    text-decoration: none;
+
+}
+.card1 a {
+    color: #64C8FF;
+}
+.card2 a {
+    color: #F0AA00;
+}
+.card3 a {
+    color: #8700FF;
+}
+.curriculum-icons {
+    display: flex;               
+    justify-content: center;      
+    align-items: center;         
+    gap: 20px;                     
+}
+
+.right-icon img {
+                 
+    width: 35px;    
+    height: 35px;     
+    border-radius: 50px;               
+    background-color: orange;       
+    font-size: 1.9rem; 
+    padding: 20px;             
+}
+.left-icon img {
+                 
+    width: 35px;    
+    height: 35px;     
+    border-radius: 50px;               
+    background-color: orange;       
+    font-size: 1.9rem; 
+    padding: 20px;
+    transform: rotate(180deg);             
 }
