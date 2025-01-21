@@ -347,7 +347,7 @@
 .stories-card3 button,
 .stories-card4 button,
 .stories-card5 button {
-    height: 50px;
+    height: 40px;
     width: 175px;
     background-color: #3CD8E8;
     color: white;
@@ -355,8 +355,9 @@
     border-radius: 50px;
     font-family: "Raleway", sans-serif;
     font-size: 1rem;
-    margin-top: -30px;
-    align-self: center;
+    margin-top: -25px;
+    margin-left: 40px;
+    align-self: flex-start;
 }
 
 .stories-card1 h3, .stories-card1 p {
@@ -587,9 +588,9 @@
     }
 
     .stories-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         width: auto;
-        padding: 5px;
+        padding: 0px 15px;
     }
 
     .stories-card1 {
@@ -609,6 +610,19 @@
     .stories-card4 h3, 
     .stories-card5 h3 {
         padding: 0px 20px;
+        font-weight: bold;
+        font-size: 0.7rem;
+        
+    }
+    .stories-card2 button, 
+    .stories-card3 button, 
+    .stories-card4 button, 
+    .stories-card5 button {
+        font-weight: normal;
+        font-size: 0.7rem;
+        width: 70%;
+        margin-left: 25px;
+        
         
     }
     .stories-btn {
