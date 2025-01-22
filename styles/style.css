@@ -221,6 +221,7 @@
     color: #202020;
 }
 .card1 p, .card2 p, .card3 p {
+    padding: 10px;
     font-weight: normal;
     font-size: 1rem;
     color: #808080;
@@ -264,7 +265,10 @@
     padding: 20px;
     transform: rotate(180deg);             
 }
-
+.right-icon img:hover, .left-icon img:hover {
+    background-color: #ff6f00; 
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
 
 .stories {
     background: 
@@ -407,7 +411,7 @@
 /* marquee section styles */
 .marquee-section {
     background-color: orange;
-    padding: 10px 0;
+    padding: 0px 0;
     text-align: center;
 }
 
